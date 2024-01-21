@@ -127,6 +127,7 @@ header {
     background: #FFF;
 }
 .conteiner_btn{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,32 +152,28 @@ header {
 
 main{
     background:#FAFAFA;
-    
 }
-.main_svg{
-    width: 3393.516px;
-    transform: rotate(2.095deg);
-    }
+
 .vector1{
-    width: 2895.111px;
-    height: 467.398px;
-    transform: rotate(2.095deg);
-    flex-shrink: 0;
-    position: absolute;
+    stroke-width: 2px;
+    stroke: #F0F0F0;
 }
-
 .vector2{
-    width: 3393.516px;
-    height: 548.934px;
-    transform: rotate(-2.095deg);
-    flex-shrink: 0;
-    position: absolute;
-}
 
+}
+.bg_img-main{
+    width: 3393.516px;
+    height: 681px;
+    position: absolute;
+    transform: rotate(2.095deg);
+    z-index: 1;
+    overflow-x: auto;
+}
 .abaut_meta{
     width: 1170px;
     margin: 0 auto;
     z-index: 3;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -188,12 +185,13 @@ main{
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 45px;
-    margin:  0px 105px 20px 0px;
+    font-weight: 400;
 }
 .abaut__sub_title{
     color: #666;
     font-family: Gilroy-Regular;
     font-size: 16px;
+    font-weight: 400;
     line-height:24px ;
     width: 515px;
     margin-bottom: 35px;

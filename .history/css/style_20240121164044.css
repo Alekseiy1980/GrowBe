@@ -127,6 +127,7 @@ header {
     background: #FFF;
 }
 .conteiner_btn{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,7 +140,6 @@ header {
 .brend{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 96px;
 }
 
 .brebd_logo{
@@ -150,54 +150,25 @@ header {
 
 
 main{
-    background:#FAFAFA;
-    
-}
-.main_svg{
-    width: 3393.516px;
-    transform: rotate(2.095deg);
-    }
-.vector1{
-    width: 2895.111px;
-    height: 467.398px;
-    transform: rotate(2.095deg);
-    flex-shrink: 0;
-    position: absolute;
-}
 
-.vector2{
-    width: 3393.516px;
-    height: 548.934px;
-    transform: rotate(-2.095deg);
-    flex-shrink: 0;
-    position: absolute;
 }
 
 .abaut_meta{
-    width: 1170px;
-    margin: 0 auto;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
+    background:#FAFAFA;;
 }
 .abaut_content{
     width: 515px;
-    margin-top: 126px;
 }
 .abaut_title{
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 45px;
-    margin:  0px 105px 20px 0px;
+    font-weight: 400;
 }
 .abaut__sub_title{
     color: #666;
     font-family: Gilroy-Regular;
     font-size: 16px;
+    font-weight: 400;
     line-height:24px ;
-    width: 515px;
-    margin-bottom: 35px;
-}
-.home_img{
-    z-index: 6;
 }

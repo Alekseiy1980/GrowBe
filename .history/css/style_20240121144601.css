@@ -17,12 +17,12 @@
     font-family: 'Gilroy-SemiBold';
     src: url(/fonts/Gilroy-SemiBold.ttf);
 }
-body {
+body{
     font-family: Gilroy-Medium;
     font-size: 14px;
     font-weight: 400;
-    background: #FFF; 
-    min-width: 1920px;
+    background: #FFF;
+    
 }
 
 header {
@@ -76,16 +76,14 @@ header {
     margin-top: 82px;
     margin-bottom:162px ;
     display: flex;
-    justify-content: space-around;
-    
+    width: 1170px;
 }
 
 .home_content{
-    
+    /* white-space: pre-wrap; */
     width: 522px;
     margin-bottom: 17px;
-    padding-right: 40px;
-    padding-top: 60.29px; 
+    padding-right: 40px; 
     
 }
 
@@ -108,7 +106,8 @@ header {
 .sub_title{
     color: #888;
     font-size: 20px;
-    margin: 17px 36px 37px 0px;
+    padding-right: 36px;
+    margin-bottom: 37px;
 }
 
 .home_ing{
@@ -116,88 +115,20 @@ header {
 }
 .btn_meta{
     display: flex;
-    justify-content: space-between;
     width: 302px;
     height: 50px;
 }
 .btn_video{
     justify-content: space-between;
     width: 135px;
-    align-content: center;
-    background: #FFF;
 }
 .conteiner_btn{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-content: center;
 }
-    
 .comteiner_img{
     height: 30px;
     width: 30px;
 }
-.brend{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 96px;
-}
-
-.brebd_logo{
-    display: inline-block;
-    width: 160px;
-}
-
-
-
-main{
-    background:#FAFAFA;
+/* .btn_img{
     
-}
-.main_svg{
-    width: 3393.516px;
-    transform: rotate(2.095deg);
-    }
-.vector1{
-    width: 2895.111px;
-    height: 467.398px;
-    transform: rotate(2.095deg);
-    flex-shrink: 0;
-    position: absolute;
-}
-
-.vector2{
-    width: 3393.516px;
-    height: 548.934px;
-    transform: rotate(-2.095deg);
-    flex-shrink: 0;
-    position: absolute;
-}
-
-.abaut_meta{
-    width: 1170px;
-    margin: 0 auto;
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-}
-.abaut_content{
-    width: 515px;
-    margin-top: 126px;
-}
-.abaut_title{
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 45px;
-    margin:  0px 105px 20px 0px;
-}
-.abaut__sub_title{
-    color: #666;
-    font-family: Gilroy-Regular;
-    font-size: 16px;
-    line-height:24px ;
-    width: 515px;
-    margin-bottom: 35px;
-}
-.home_img{
-    z-index: 6;
-}
+} */

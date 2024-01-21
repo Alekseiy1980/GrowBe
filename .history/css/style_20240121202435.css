@@ -127,6 +127,7 @@ header {
     background: #FFF;
 }
 .conteiner_btn{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,12 +189,15 @@ main{
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 45px;
+    font-weight: 400;
+    width: 410px;
     margin:  0px 105px 20px 0px;
 }
 .abaut__sub_title{
     color: #666;
     font-family: Gilroy-Regular;
     font-size: 16px;
+    font-weight: 400;
     line-height:24px ;
     width: 515px;
     margin-bottom: 35px;

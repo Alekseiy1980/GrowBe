@@ -127,6 +127,7 @@ header {
     background: #FFF;
 }
 .conteiner_btn{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,5 +200,5 @@ main{
     margin-bottom: 35px;
 }
 .home_img{
-    z-index: 6;
+    /* z-index: 6; */
 }
